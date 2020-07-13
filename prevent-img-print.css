@@ -1,0 +1,7 @@
+/*No image is displayed during printing*/
+@media print {
+  img,
+  svg {
+    display: none;
+  }
+}

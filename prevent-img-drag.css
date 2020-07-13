@@ -1,0 +1,16 @@
+/*Can't take a picture even by dragging*/
+picture,
+figure {
+  position: relative;
+  display: block;
+
+  &:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
